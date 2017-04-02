@@ -114,6 +114,8 @@ LANDING_PAGE_ABOUT = {
         sub-fields. A unique feature of my group is a keen interest and track record in exploiting 
         ideas from diverse fields to provide fresh perspectives and elegant solutions to problems 
         in seemingly unrelated areas. We plan to continue our cross-pollination activities into 
-        the future.</p>"""}
+        the future.</p>
+
+        </div>"""}
 
 
