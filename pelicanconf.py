@@ -34,6 +34,44 @@ DEFAULT_PAGINATION = 10
 THEME = 'themes/elegant-psylab'
 SITEURL = 'http://localhost:8000' #TODO: CHANGE THIS
 
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
+
+# Elegant recommended variables
+PLUGIN_PATHS = ['pelican-plugins/sitemap', 'pelican-plugins/extract_toc', 'pelican-plugins/tipue_search']
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
+STATIC_PATHS = ['theme/images', 'images']
+TAG_SAVE_AS = ''
+CATEGORY_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
+
+
+PROJECTS = [
+        {
+            'name': 'All Digital DC-DC conversion',
+            'url':
+            'http://oncrashreboot.com/research/all-digital-dc-dc-conversion',
+            'description': 'We are currently working on exploiting the structure '
+            'inherent in digital systems to enable all-digital DC-DC buck converter '
+            'implementations'},
+        {
+            'name': 'Quasi-Resonant Clocking',
+            'url':
+            'http://oncrashreboot.com/research/quasi-resonant-clocking',
+            'description': 'Aug 2014: My group introduced Quasi Resonant Clocking. '
+            'The technique employs run-time control and optimization to enable, for '
+            'the first time, a true voltage-frequency scalable resonant clocking '
+            'capability.'},
+        {
+            'name': 'All Digital Power Supply Measurement',
+            'url':
+            'http://oncrashreboot.com/research/power-supply-measurement',
+            'description': 'Aug, 2014: Kannan Shankaragomathi and William Anthony '
+            'Smith presented their work on an all-digital power high-bandwidth '
+            'power supply noise measurement system at ISLPED2014'
+        }]
+
 LANDING_PAGE_ABOUT = {
     'title': 'Processing Systems Lab',
     'details': """
@@ -78,5 +116,4 @@ LANDING_PAGE_ABOUT = {
         in seemingly unrelated areas. We plan to continue our cross-pollination activities into 
         the future.</p>"""}
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+
