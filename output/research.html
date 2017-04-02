@@ -6,15 +6,12 @@
         <meta name="author" content="Kim Lum" />
         <meta name="copyright" content="Kim Lum" />
 
-        <title>Search · PSy Lab
+        <title>All Posts · PSy Lab
 </title>
         <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/solarizedlight.css" media="screen">
-
-<link href="http://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/tipuesearch/tipuesearch.css">
         <link rel="shortcut icon" href="http://localhost:8000/theme/images/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="http://localhost:8000/theme/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:8000/theme/images/apple-touch-icon-57x57.png" />
@@ -37,7 +34,7 @@
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right top-menu">
                             <li ><a href="http://localhost:8000">Home</a></li>
-                            <li ><a href="http://localhost:8000/research.html">Research</a></li>
+                            <li  class="active"><a href="http://localhost:8000/research.html">Research</a></li>
                             <li ><a href="http://localhost:8000/categories.html">Categories</a></li>
                             <li ><a href="http://localhost:8000/tags.html">Tags</a></li>
                             <li ><a href="http://localhost:8000/archives.html">Archives</a></li>
@@ -51,11 +48,24 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
-<article>
-    <div class="span8 offset2">
-        <div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
+
+<div class="row-fluid">
+    <header class="page_header span10 offset1">
+    <h1><a href="/history.html">Research</a></h1>
+    </header>
+</div>
+<div class="row-fluid">
+    <div class="span10 offset1">
+        <h1>Overview</h1>
+
+        <h3>Next-Generation Clocking</h3>
+        <p>The past three decades have seen dramatic shifts and transitions in the design of CMOS digital integrated circuits, including the “frequency-race”, increasing variability in advanced process technologies, low-voltage operation, and the design of 3D heterogeneous complexes. With the exception of resonant clocking, there have been few significant changes in the state-of-the-art in system clocking. Clock distributions transitioned from clock planes (high performance) to clock trees (lower power) and back to coarse clock meshes (in response to process variability).</p>
+
+        <img src="/images/res_clk.png" />
+
     </div>
-</article>
+</div>
+
                 </div>
                 <div class="span1"></div>
             </div>
@@ -67,18 +77,13 @@
         <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
 </div>
-</footer><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript" src="http://localhost:8000/theme/tipuesearch/tipuesearch_set.js"></script>
-<script type="text/javascript" src="http://localhost:8000/theme/tipuesearch/tipuesearch.min.js"></script>
-<script>
-$(document).ready(function() {
-     $('#tipue_search_input').tipuesearch({
-             'mode': 'live',
-         'show': 10,
-         'newWindow': true,
-             'liveDescription': '.article-content'
-     });
-});
-</script>
+</footer>        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
     </body>
 </html>
