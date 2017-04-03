@@ -127,6 +127,31 @@ LANDING_PAGE_ABOUT = {
 
         </div>"""}
 
-TOC = [
+TOC_PAGES = [
     'Research'
 ]
+
+TOC = {
+    'Research': [
+        {
+            'title': 'Next-Generation Clocking',
+            'id': 'next-generation-clocking'
+        },
+        {
+            'title': 'Current problems in clocking',
+            'id': 'current-problems-in-clocking'
+        },
+        {
+            'title': 'Power conversion, distribution and regulation',
+            'id': 'power-conversion-distribution-and-regulation'
+        },
+        {
+            'title': 'Neural-signal acquisition and processing',
+            'id': 'neural-signal-acquisition-and-processing'
+        },
+        {
+            'title': 'Other Research Projects',
+            'id': 'other-research-projects'
+        }
+    ]
+}

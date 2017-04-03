@@ -1,8 +1,5 @@
 Title: Research
-Date: 2017-04-02 18:13
 Save_as: research.html
-
-[TOC]
 
 ## Next-Generation Clocking
 
@@ -35,7 +32,7 @@ Previous selected publications in the area:
 [Pat2](https://www.google.com/patents/US8742817)
 
 
-## Current problems in clocking
+## [Current problems in clocking](#problems)
 
 The grounds-up research effort in this area focuses on radically different clocking 
 circuits and architectures which effectively address these myriad challenges. The group is 
