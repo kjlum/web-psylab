@@ -40,7 +40,15 @@ PAGE_URL = '{slug}.html'
 
 # Elegant recommended variables
 PLUGIN_PATHS = ['pelican-plugins/sitemap', 'pelican-plugins/extract_toc', 'pelican-plugins/tipue_search']
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.headerid': {},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.toc': {'permalink': 'true'},
+    },
+    'output_format': 'html5',
+}
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 STATIC_PATHS = ['theme/images', 'images']
 TAG_SAVE_AS = ''
@@ -119,3 +127,6 @@ LANDING_PAGE_ABOUT = {
 
         </div>"""}
 
+TOC = [
+    'Research'
+]
