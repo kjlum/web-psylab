@@ -34,6 +34,7 @@ DEFAULT_PAGINATION = 10
 THEME = 'themes/elegant-psylab'
 SITEURL = 'http://localhost:8000' #TODO: CHANGE THIS
 PAGE_URL = '{slug}.html'
+PAGE_ORDER_BY = 'sortorder'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -50,7 +51,7 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
-STATIC_PATHS = ['theme/images', 'images']
+STATIC_PATHS = ['theme/images', 'images', 'documents']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
