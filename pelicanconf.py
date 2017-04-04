@@ -26,15 +26,20 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('You can add links in your config file', '#'),
+#           ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'http://twitter.com/talham_'),
+    ('Github', 'http://github.com/talha131'))
 
 DEFAULT_PAGINATION = 10
 
 THEME = 'themes/elegant-psylab'
 SITEURL = 'http://localhost:8000' #TODO: CHANGE THIS
-PAGE_URL = '{slug}.html'
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}.html'
 PAGE_ORDER_BY = 'sortorder'
+ARTICLE_URL = '{slug}'
+ARTICLE_SAVE_AS = '{slug}.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -60,23 +65,20 @@ AUTHOR_SAVE_AS = ''
 PROJECTS = [
         {
             'name': 'All Digital DC-DC conversion',
-            'url':
-            'http://oncrashreboot.com/research/all-digital-dc-dc-conversion',
+            'url': '/all-digital-dc-dc-conversion',
             'description': 'We are currently working on exploiting the structure '
             'inherent in digital systems to enable all-digital DC-DC buck converter '
             'implementations'},
         {
             'name': 'Quasi-Resonant Clocking',
-            'url':
-            'http://oncrashreboot.com/research/quasi-resonant-clocking',
+            'url': '/quasi-resonant-clocking',
             'description': 'Aug 2014: My group introduced Quasi Resonant Clocking. '
             'The technique employs run-time control and optimization to enable, for '
             'the first time, a true voltage-frequency scalable resonant clocking '
             'capability.'},
         {
             'name': 'All Digital Power Supply Measurement',
-            'url':
-            'http://oncrashreboot.com/research/power-supply-measurement',
+            'url': '/power-supply-measurement',
             'description': 'Aug, 2014: Kannan Shankaragomathi and William Anthony '
             'Smith presented their work on an all-digital power high-bandwidth '
             'power supply noise measurement system at ISLPED2014'

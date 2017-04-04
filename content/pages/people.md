@@ -1,5 +1,5 @@
 Title: People
-Save_as: people.html
+Slug: people
 sortorder: 2
 
 <img src="/images/Vish-Website-Profile-e1410155197156.jpg" alt="Visvesh Sathe" width="200" height="254" style="float:left;"/>

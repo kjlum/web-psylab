@@ -1,5 +1,5 @@
 Title: Positions
-Save_as: positions.html
+Slug: positions
 sortorder: 3
 
 ## Graduate Student Research Assistant

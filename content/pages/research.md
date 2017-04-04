@@ -1,5 +1,5 @@
 Title: Research
-Save_as: research.html
+Slug: research
 sortorder: 1
 
 ## Next-Generation Clocking
