@@ -2,6 +2,8 @@ Title: Research
 Slug: research
 sortorder: 1
 
+[TOC]
+
 ## Next-Generation Clocking
 
 The past three decades have seen dramatic shifts and transitions in the design of CMOS 
@@ -33,7 +35,7 @@ Previous selected publications in the area:
 [Pat2](https://www.google.com/patents/US8742817)
 
 
-## [Current problems in clocking](#problems)
+## Current problems in clocking
 
 The grounds-up research effort in this area focuses on radically different clocking 
 circuits and architectures which effectively address these myriad challenges. The group is 

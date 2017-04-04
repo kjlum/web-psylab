@@ -142,6 +142,12 @@ SLIDESHOW = [
         'title': 'Power-Supply Noise Measurement',
         'text': 'Aug, 2014: Kannan Shankaragomathi and William Anthony Smith presented their work on an all-digital power high-bandwidth power supply noise measurement system at ISLPED2014',
         'url': '/power-supply-measurement'
+    },
+    {
+        'src': '',
+        'title': 'Quasi-Resonant Clocking',
+        'text': 'Aug 2014: My group introduced Quasi Resonant Clocking. The technique employs run-time control and optimization to enable, for the first time, a true voltage-frequency scalable resonant clocking capability.',
+        'url': '/quasi-resonant-clocking'
     }
 ]
 
