@@ -35,6 +35,7 @@
                         <ul class="nav pull-right top-menu">
                             <li ><a href="http://localhost:8000">Home</a></li>
                             <li ><a href="http://localhost:8000/research">Research</a></li>
+                            <li ><a href="http://localhost:8000/publications">Publications</a></li>
                             <li ><a href="http://localhost:8000/people">People</a></li>
                             <li ><a href="http://localhost:8000/positions">Positions</a></li>
                             <li ><a href="http://localhost:8000/categories.html">Categories</a></li>
@@ -68,6 +69,7 @@
                         <li><a href="#power-conversion-distribution-and-regulation">Power conversion, distribution and regulation</a></li>
                         <li><a href="#neural-signal-acquisition-and-processing">Neural-signal acquisition and processing</a></li>
                         <li><a href="#other-research-projects">Other Research Projects</a></li>
+                        <li><a href="#prototypes">Prototypes</a></li>
                 </ul>
             </div>
         </nav>
@@ -82,8 +84,8 @@ complexes. With the exception of resonant clocking, there have been few signific
 in the state-of-the-art in system clocking. Clock distributions transitioned from clock 
 planes (high performance) to clock trees (lower power) and back to coarse clock meshes (in 
 response to process variability).</p>
-<p><img src="/images/res_clk.png" style="margin:0 auto;display:block;" width="397" height="268"/>
-<p style="text-align:center;font-style:italic;">Simplified schematic of a quasi-resonant clocking system</p></p>
+<p><img src="/images/res_clk.png" class="centered" width="397" height="268"/>
+<p class="caption">Simplified schematic of a quasi-resonant clocking system</p></p>
 <p>Today, several new challenges have emerged in the area of clocking including:</p>
 <ul>
 <li>Low-voltage operation, to near-threshold and sub-threshold voltages</li>
@@ -111,16 +113,16 @@ currently focused on:</p>
 <li>Greedy synchronization for efficient clock domain crossing for future micro-regulated voltage domains</li>
 <li>Voltage-Frequency scalable clock distribution networks (global and local)</li>
 </ol>
-<p><img src="/images/elastic_clk.png" style="margin:0 auto;display:block;" width="598" height="246"/>
-<p style="text-align:center;font-style:italic;">An elastic clock distribution for efficient, robust clocking</p></p>
+<p><img src="/images/elastic_clk.png" class="centered" width="598" height="246"/>
+<p class="caption">An elastic clock distribution for efficient, robust clocking</p></p>
 <h2 id="power-conversion-distribution-and-regulation">Power conversion, distribution and regulation<a class="headerlink" href="#power-conversion-distribution-and-regulation" title="Permanent link">&para;</a></h2>
 <p>Few areas in IC design are as pervasive and challenging as the analysis and design of power 
 supply systems. The progress of clock rates to beyond package resonance frequencies, the 
 efficiency-driven push for larger number of on-chip voltage domains, reduced form factors 
 in electronic systems, power transfer, conversion and regulation for energy-harvesting 
 systems and even challenges in hardware security have all  driven advances in this field.</p>
-<p><img src="/images/buck_converter.png" style="margin:0 auto;display:block;" width="597" height="195"/>
-<p style="text-align:center;font-style:italic;">All-digital DC-DC conversion for energy-efficient microprocessors</p></p>
+<p><img src="/images/buck_converter.png" class="centered" width="597" height="195"/>
+<p class="caption">All-digital DC-DC conversion for energy-efficient microprocessors</p></p>
 <p>We are interested in a number of problems in this area:</p>
 <ol>
 <li>Novel voltage regulation techniques and architectures</li>
@@ -129,8 +131,8 @@ systems and even challenges in hardware security have all  driven advances in th
 <li>Power delivery and regulation in 3D silicon</li>
 <li>Analysis and optimization of voltage regulators for bio-implantable systems</li>
 </ol>
-<p><img src="/images/interlocked_osc.jpg" style="margin:0 auto;display:block;" width="300" height="248"/>
-<p style="text-align:center;font-style:italic;">A novel system to enable fast, all-digital low-dropout regulators for micro-regulated voltage domains.</p></p>
+<p><img src="/images/interlocked_osc.jpg" class="centered" width="300" height="248"/>
+<p class="caption">A novel system to enable fast, all-digital low-dropout regulators for micro-regulated voltage domains.</p></p>
 <p>Previous selected publications in the area:
 <a href="https://www.google.com/patents/US20120187991">Pat1</a>
 <a href="https://www.google.com/patents/US8373512">Pat2</a>
@@ -139,8 +141,8 @@ systems and even challenges in hardware security have all  driven advances in th
 <a href="http://vlsi.ee.washington.edu/files/2014/10/clock_stretcher_isscc.pdf">ISSCC2</a></p>
 <h2 id="neural-signal-acquisition-and-processing">Neural-signal acquisition and processing<a class="headerlink" href="#neural-signal-acquisition-and-processing" title="Permanent link">&para;</a></h2>
 <p>Minimally-invasive ECoG readings taken from the surface of the brain have been shown to contain sufficient information to enable exciting Brain Computer Interface possib￼￼ilities. ECoG signal detection and processing also has other vital clinical applications. We are interested in applying low-power system design principles, and exploiting the available “structure” in the problem of neural signal recording to drive advances in this area. A current project, funded by the Center for Sensorimotor Neural Engineering (CSNE) aims to develop a highly scalable and energy-efficient architecture for integrated neural-signal recording and post-processing.</p>
-<p><img src="/images/ecog_spectrum.png" style="margin:0 auto;display:block;" width="434" height="321"/>
-<p style="text-align:center;font-style:italic;">Frequency-time plot comparing original and reconstructed ECOG signals</p></p>
+<p><img src="/images/ecog_spectrum.png" class="centered" width="434" height="321"/>
+<p class="caption">Frequency-time plot comparing original and reconstructed ECOG signals</p></p>
 <h2 id="other-research-projects">Other Research Projects<a class="headerlink" href="#other-research-projects" title="Permanent link">&para;</a></h2>
 <p><strong>Minimum-Energy System Design:</strong> Despite much recent work in the last decade in the area of minimum energy CMOS computation, we still dissipate energy several orders of magnitude  more than postulated by the Landauer limit. I am fascinated by analysis and design of circuits, or systems that will enable us to approach this limit, beyond existing conventional CMOS techniques:
 <a href="http://vlsi.ee.washington.edu/files/2014/09/energy_efficient_ghz_class_charge_recovery_logic.pdf">ISSCC</a>
@@ -148,10 +150,27 @@ systems and even challenges in hardware security have all  driven advances in th
 <a href="http://vlsi.ee.washington.edu/files/2014/10/Energy-Efficient_GHz-Class_Charge-Recovery_Logic.pdf">JSSC1</a>
 <a href="http://vlsi.ee.washington.edu/files/2014/09/187_mhz_subthreshold_supply_charge_recovery_fir.pdf">JSSC2</a>.
 Importantly, instead of focusing on minimum-energy computation, I am interested in more comprehensive system design, leveraging the expertise of my group in the areas of voltage conversion, regulation, and computing circuits and architectures to develop ultra low-power integrated systems.</p>
-<p><img src="/images/charge_recovery_logic.png" style="margin:0 auto;display:block;" width="232" height="183"/>
-<p style="text-align:center;font-style:italic;">Charge recovery logic with sub-threshold supply</p></p>
+<p><img src="/images/charge_recovery_logic.png" class="centered" width="232" height="183"/>
+<p class="caption">Charge recovery logic with sub-threshold supply</p></p>
 <p><strong>Exploiting Resonance:</strong> Resonance by way of resonant clocking has been demonstrated to deliver energy efficiency in integrated circuits. An area I am actively exploring techniques and methods to exploit resonance beyond clocking applications, to develop low-power systems, and escaping the key limitation of frequency-limited operation. Recent efforts in the area have yielded early success.<a href="http://vlsi.ee.washington.edu/files/2014/09/quasi_resonant_clocking_a_runtime_control_aproach_for_true_voltage_frequency_scaling.pdf">ISLPED</a></p>
 <p><strong>Special purpose architectures:</strong> Several emerging applications and technological challenges call for a need to rethink existing computational techniques and their VLSI implementations for reasons of robustness, performance or efficiency. Some of these areas include hardware security, machine learning, efficient processing and movement of information within and outside of integrated circuits.</p>
+<h2 id="prototypes">Prototypes<a class="headerlink" href="#prototypes" title="Permanent link">&para;</a></h2>
+<p><img src="/images/qrc_isscc16_dieshot.png" class="centered" width="497" height="255"/>
+<p class="caption">The first demonstration of truly voltage-scalable quasi-resonant clocking</p>
+<p>Fahim U. Rahman, Visvesh S. Sathe [ISSCC’16]</p></p>
+<p><img src="/images/afe_ecog.png" class="centered" width="499" height="239"/>
+<p class="caption">Prototype demonstrating an optimized ECoG signal chain with reduced noise and ADC requirements, resolved from specific characteristics of ECoG signals.</p>
+<p>William A. Smith [ESSCIRC’14 [TBIOCAS’16]</p></p>
+<p><img src="/images/rf2_dieshot.png" class="centered" width="495" height="256"/>
+<p class="caption">RF2: The first-ever fully integrated resonant clocked datapath. The design, operating at 1GHz in 0.13um CMOS, was implemented in a fully ASIC design flow and featured distributed clock generation to automate the resonant clock generation.</p>
+<p>Visvesh Sathe,  Jerry Kao [VLSI Symp, JSSC]</p></p>
+<p><img src="/images/rf1_dieshot.png" class="centered" width="493" height="262"/>
+<p class="caption">RF1: Single phase resonant clocked ASIC with programmable operating frequency of 0.8GHz-1.2GHz</p>
+<p>Visvesh Sathe, Jerry Kao [CICC, JSSC]</p></p>
+<p><img src="/images/boost_logic_dieshot.png" class="centered" width="494" height="294"/>
+<p class="caption">
+Boost Logic: The first-ever GHz-class charge-recovery logic. Operating at 1.1GHz, the fully integrated logic implemented a novel charge recovery logic, “Boost-Logic”, to achieve dramatic speed improvement over the state-of-the-art – Previous charge-recovery logic operating frequencies were in the 200MHz range</p>
+<p>Visvesh Sathe  [ISSCC, JSSC]</p></p>
         </div>
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">

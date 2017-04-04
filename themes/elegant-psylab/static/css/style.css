@@ -395,3 +395,15 @@ dt:hover > a.headerlink {
     visibility: visible;
     text-decoration:none;
 }
+
+/* PSy Lab edits */
+img.centered-image {
+    margin: 0 auto;
+    display: block;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    max-width: 600px;
+}

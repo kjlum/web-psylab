@@ -1,6 +1,6 @@
 Title: People
 Slug: people
-sortorder: 2
+sortorder: 3
 
 <img src="/images/Vish-Website-Profile-e1410155197156.jpg" alt="Visvesh Sathe" width="200" height="254" style="float:left;"/>
 <p style="text-align:left;padding-left:20px;display:table-cell;">

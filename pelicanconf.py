@@ -33,7 +33,7 @@ SOCIAL = (('Twitter', 'http://twitter.com/talham_'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = 'themes/elegant-psylab'
+THEME = 'themes/blue-penguin'
 SITEURL = 'http://localhost:8000' #TODO: CHANGE THIS
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
@@ -155,6 +155,10 @@ TOC = {
         {
             'title': 'Other Research Projects',
             'id': 'other-research-projects'
+        },
+        {
+            'title': 'Prototypes',
+            'id': 'prototypes'
         }
     ]
 }

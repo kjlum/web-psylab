@@ -1,6 +1,6 @@
 Title: Positions
 Slug: positions
-sortorder: 3
+sortorder: 4
 
 ## Graduate Student Research Assistant
 
