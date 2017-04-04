@@ -55,7 +55,7 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
-DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
+DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives'))
 STATIC_PATHS = ['theme/images', 'images', 'documents']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
@@ -130,35 +130,19 @@ LANDING_PAGE_ABOUT = {
 
         </div>"""}
 
-TOC_PAGES = [
-    'Research'
-]
+HOME_TYPE = 'custom'
 
-TOC = {
-    'Research': [
-        {
-            'title': 'Next-Generation Clocking',
-            'id': 'next-generation-clocking'
-        },
-        {
-            'title': 'Current problems in clocking',
-            'id': 'current-problems-in-clocking'
-        },
-        {
-            'title': 'Power conversion, distribution and regulation',
-            'id': 'power-conversion-distribution-and-regulation'
-        },
-        {
-            'title': 'Neural-signal acquisition and processing',
-            'id': 'neural-signal-acquisition-and-processing'
-        },
-        {
-            'title': 'Other Research Projects',
-            'id': 'other-research-projects'
-        },
-        {
-            'title': 'Prototypes',
-            'id': 'prototypes'
-        }
-    ]
-}
+SLIDESHOW = [
+    {
+        'src': '/images/All-digital-buck1.jpg',
+        'title': 'All Digital DC-DC Converters for Digital Systems',
+        'text': 'We are currently working on exploiting the structure inherent in digital systems to enable all-digital DC-DC buck converter implementations',
+        'url': '/all-digital-dc-dc-conversion'
+    },
+    {
+        'src': '/images/Picture8.jpg',
+        'title': 'Power-Supply Noise Measurement',
+        'text': 'Aug, 2014: Kannan Shankaragomathi and William Anthony Smith presented their work on an all-digital power high-bandwidth power supply noise measurement system at ISLPED2014',
+        'url': '//power-supply-measurement'
+    }
+]
