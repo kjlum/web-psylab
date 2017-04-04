@@ -144,6 +144,7 @@ img.centered-image {
 }
 
 .about, .more {
+    min-width: 300px;
     width: 50%;
     padding: 0;
     float: left;
