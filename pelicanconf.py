@@ -31,7 +31,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('Twitter', 'http://twitter.com/talham_'),
     ('Github', 'http://github.com/talha131'))
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 4
 
 THEME = 'themes/blue-penguin'
 SITEURL = 'http://localhost:8000' #TODO: CHANGE THIS
@@ -85,7 +85,7 @@ PROJECTS = [
         }]
 
 LANDING_PAGE_ABOUT = {
-    'title': 'Processing Systems Lab',
+    'title': 'About the Group',
     'details': """
     <div itemscope itemtype="http://schema.org/Person">
         <p>Our research is primarily focused on solving important (and interesting) problems in 
@@ -130,8 +130,6 @@ LANDING_PAGE_ABOUT = {
 
         </div>"""}
 
-HOME_TYPE = 'custom'
-
 SLIDESHOW = [
     {
         'src': '/images/All-digital-buck1.jpg',
@@ -146,3 +144,9 @@ SLIDESHOW = [
         'url': '/power-supply-measurement'
     }
 ]
+
+CONTACT_INFO = {
+    'name': 'Professor Visvesh S. Sathe',
+    'email': 'sathe@uw.edu',
+    'office_phone': '206-543-7635' 
+}
