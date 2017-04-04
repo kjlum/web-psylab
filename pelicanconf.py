@@ -143,6 +143,6 @@ SLIDESHOW = [
         'src': '/images/Picture8.jpg',
         'title': 'Power-Supply Noise Measurement',
         'text': 'Aug, 2014: Kannan Shankaragomathi and William Anthony Smith presented their work on an all-digital power high-bandwidth power supply noise measurement system at ISLPED2014',
-        'url': '//power-supply-measurement'
+        'url': '/power-supply-measurement'
     }
 ]
